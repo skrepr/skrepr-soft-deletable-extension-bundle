@@ -1,0 +1,22 @@
+{
+    "name": "skrepr/skrepr-soft-deletable-extension-bundle",
+    "type": "symfony-bundle",
+    "description": "Use sdstichtingsd/soft-deleteable-extension-bundle with binary ids",
+    "keywords": ["php", "symfony", "softdelete", "softdeleteable", "softdeleteable-extension", "softdeleteable-extension-bundle"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Didier Peereboom Voller",
+            "email": "didier@skrepr.com"
+        }
+    ],
+    "require": {
+        "stichtingsd/soft-deleteable-extension-bundle": "^1.0"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/skrepr/skrepr-soft-deletable-extension-bundle.git"
+        }
+    ]
+}
