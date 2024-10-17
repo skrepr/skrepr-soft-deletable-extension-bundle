@@ -1,6 +1,6 @@
 <?php
 
-namespace StichtingSD\SoftDeleteableExtensionBundle\EventListener;
+namespace Skrepr\SkreprSoftDeleteableExtensionBundle\EventListener;
 
 use Doctrine\ORM\AbstractQuery;
 use Doctrine\ORM\UnitOfWork;
@@ -8,7 +8,7 @@ use Doctrine\Persistence\Event\LifecycleEventArgs;
 use Doctrine\Persistence\ObjectManager;
 use Gedmo\SoftDeleteable\SoftDeleteableListener as GedmoSoftDeleteableListener;
 
-class OnSoftDeleteEventSubscriber
+class SkreprOnSoftDeleteEventSubscriber
 {
     protected function cascadeAssociatedObjects(object $eventObject, array $metaData, ObjectManager $objectManager): void
     {
