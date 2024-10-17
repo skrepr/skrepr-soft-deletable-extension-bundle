@@ -13,6 +13,15 @@
     "require": {
         "stichtingsd/soft-deleteable-extension-bundle": "^1.0"
     },
+    "autoload": {
+        "psr-4": {
+            "StichtingSD\\SoftDeleteableExtensionBundle\\": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin",
+        "sort-packages": true
+    },
     "repositories": [
         {
             "type": "git",
