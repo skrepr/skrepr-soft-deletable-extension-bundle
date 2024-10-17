@@ -7,8 +7,9 @@ use Doctrine\ORM\UnitOfWork;
 use Doctrine\Persistence\Event\LifecycleEventArgs;
 use Doctrine\Persistence\ObjectManager;
 use Gedmo\SoftDeleteable\SoftDeleteableListener as GedmoSoftDeleteableListener;
+use StichtingSD\SoftDeleteableExtensionBundle\EventListener\OnSoftDeleteEventSubscriber;
 
-class SkreprOnSoftDeleteEventSubscriber
+class SkreprOnSoftDeleteEventSubscriber extends OnSoftDeleteEventSubscriber
 {
     protected function cascadeAssociatedObjects(object $eventObject, array $metaData, ObjectManager $objectManager): void
     {
