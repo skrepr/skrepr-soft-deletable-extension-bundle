@@ -1,5 +1,6 @@
 <?php
 
+namespace StichtingSD\SoftDeleteableExtensionBundle\EventListener;
 
 use Doctrine\ORM\AbstractQuery;
 use Doctrine\ORM\UnitOfWork;

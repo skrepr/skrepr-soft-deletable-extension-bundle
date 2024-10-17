@@ -21,7 +21,7 @@ return static function (ContainerConfigurator $container) {
         ->services()
         ->set(
             'stichtingsd.soft_deletable_extension.subscriber',
-            App\EventListener\OnSoftDeleteEventSubscriber::class,
+            Skrepr\Skrepr\EventListener\OnSoftDeleteEventSubscriber::class,
         )
         ->call('setContainer', [service('service_container')])
         ->arg(0, service('stichtingsd.soft_deletable_extension.metadata_factory'))
