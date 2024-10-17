@@ -1,0 +1,1 @@
+# skrepr-soft-deletable-extension-bundle
